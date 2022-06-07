@@ -19,6 +19,7 @@
                 <input type="hidden" name="form_submitted" value="1" /> <br>
                 <input type="submit" value="Submit" class="btn btn-warning">
         </form> 
-        <?php  } ?>        
+        <?php  } ?>      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>  
     </body>
 </html>
