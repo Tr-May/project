@@ -14,8 +14,8 @@
             </p>
         <?php }else{?>
             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">  
-                <input type="text" name="firstname" class="form-control w-25" placeholder="First Name"> <br> 
-                <input type="text" name="lastname" class="form-control w-25" placeholder="Last Name">
+                <input type="text" name="firstname" class="form-control w-25" placeholder="First Name" autocomplete="off"> <br> 
+                <input type="text" name="lastname" class="form-control w-25" placeholder="Last Name" autocomplete="off">
                 <input type="hidden" name="form_submitted" value="1" /> <br>
                 <input type="submit" value="Submit" class="btn btn-warning">
         </form> 
